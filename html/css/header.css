@@ -1,0 +1,68 @@
+.header{
+    max-width:1480px;
+    min-width:1300px;
+    margin: 0 auto;
+}
+.head{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+div.head_left{
+    margin-top:10px; 
+    font-size:40px;
+    margin-left:2rem; 
+    font-family: "华文行楷";
+
+}
+div.head_left>a{
+     color: chocolate;
+}
+div.head_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+div.head_center>input{
+        width:200px;
+        height: 40px;
+        border: 0;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+        padding-left:15px;
+        padding-right:10px; 
+        outline: 0; 
+}
+div.head_center>input:focus{
+   width:250px;
+   transition: width 1s;
+}
+div.head_center>button{
+    font-size: 20px;
+    text-align: center;
+    width: 80px;
+    height: 40px;
+    border: 0;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: chocolate;
+    outline: 0;
+}
+div.head_center>button:hover{
+    font-size: 21px;
+    width: 85px;
+    transition: all 1s;
+}
+ul.head_right{
+    height: 100%;
+    margin-right: 30px;
+}
+ul.head_right>li{
+    float: left;
+    padding:15px; 
+    font-size:25px; 
+}

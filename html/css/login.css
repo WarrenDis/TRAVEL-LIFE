@@ -1,0 +1,76 @@
+.login_pag{
+    max-width:1480px;
+    min-width:1300px;
+    margin: 0 auto;
+    height: 500px;
+    background-image: url(../img/sanya.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login_pag>.login_box{
+    width: 30%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.3);
+}
+.login_pag>.login_box>p{
+    color: rgb(35, 228, 202);
+    font: 30px "宋体";
+    height: 50px;
+    background-image: linear-gradient(to bottom,#299ee7,#1362ac);
+    line-height: 50px;
+}
+.login_pag>.login_box>form>input{
+    width: 250px;
+    height: 40px;
+    margin-bottom: 20px;
+    border: 0;
+    outline: 0;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+.login_pag>.login_box>form>input:focus{
+    background-color: chocolate;
+}
+.login_pag>.login_box>form>input:hover{
+    box-shadow:0 0 10px chocolate;
+    width: 270px;
+    transition: width 0.1s;
+}
+.login_pag>.login_box>form>.btn_psw{
+    color: aliceblue;
+    margin-left: 2rem;
+    float: left;
+}
+.login_pag>.login_box>form>.btn_log{
+    color: aliceblue;
+    float: right;
+    margin-right: 2rem;
+}
+.login_pag>.login_box>form>button{
+    width: 250px;
+    height: 50px;
+    margin: 20px;
+    border: 0;
+    outline: 0;
+    padding-left: 10px;
+    border-radius: 25px;
+    font:20px "黑体";
+    color: #efeef5;
+    background-color: chocolate;                                           
+}
+.login_pag>.login_box>form>button:hover{
+    transform: scale(1.05);
+    transition: transform 0.1s;
+}
+.login_pag>.login_box>form>p{
+    font-size:15px;
+    height: 18px;
+    width: 50%;
+    margin: 5px auto;
+    border-radius: 9px;
+
+}
+
+

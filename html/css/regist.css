@@ -1,0 +1,100 @@
+.regist_bg{
+    max-width:1480px;
+    min-width:1300px;
+    margin: 0 auto;
+    background-color:chocolate;
+}
+.regist_pag{
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+}
+.regist_img{
+    width:60%;
+}
+.regist_img>img{
+    width: 100%;
+    height:400px;
+}
+.regist_box{
+    width: 40%;
+    height: 400px;
+    background: rgba(0,0,0,0.3);
+}
+.regist_box>h4{
+    font-size: 25px;
+    margin-top: 20px;
+    text-align: center;
+}
+.regist_box>form{
+    margin-left:30px;
+}
+input.input_uname,input.input_upwd,input.input_phone{
+    width: 200px;
+    height:30px;
+    border: 0;
+    outline: 0; 
+    border-radius: 15px;
+    margin-left: 5px;
+}
+.regist_box>form>input{
+    margin-top: 20px;
+    padding-left:10px;
+}
+.regist_box>form>input+span{
+    font-size:10px;
+}
+.regist_box>form>input.phone_verity{
+    width:100px;
+    height:30px;
+    border: 0;
+    outline: 0;
+    border-radius: 15px;
+}
+input.input_uname:focus,input.input_upwd:focus,input.phone_verity:focus,
+input.input_phone:focus{
+    box-shadow: 0 0 10px chocolate;
+    border:2px solid chocolate;
+    transform: scale(1.03);
+    background-color: #919996;
+    transition: all 0.5s;
+}
+.regist_box>form>.phone_btn{
+    width: 100px;
+    height:30px;
+    border: 0;
+    outline: 0;
+    border-radius: 15px;
+    padding: 0;
+    text-align: center;     
+}
+.regist_box>form>button{
+    width: 100px;;
+    height: 30px;
+    border: 0;
+    outline: 0;
+    border-radius: 15px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.regist_box>form>.phone_btn:hover,.regist_box>form>button:hover{
+    color:chocolate;
+    background-color: rgb(57, 56, 58);
+}
+.regist_box>form>button.regist_btn{
+    width:200px;
+    height: 40px;
+    font-size: 20px;
+    margin-top:10px;
+    margin-left:70px;
+    border-radius: 20px;
+}
+.Must_checkbox{
+    margin-top: 15px;
+    margin-left: 1rem;
+}
+.Must_checkbox+span{
+    font-size:14px;   
+}

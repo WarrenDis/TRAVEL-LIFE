@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/regist.css">
+    <link rel="icon" href="./img/ico.png" type="image/x-icon">
+    <title>Travel life</title>
+</head>
+<body>
+    <div class="header_main">
+    </div>
+    <!--注册页面-->
+    <div class="regist_bg">
+        <div class="regist_pag">
+            <div class="regist_img">
+                <img src="./img/regist.jpg" alt="">
+            </div>
+            <div class="regist_box">
+                <h4>用户注册</h4>
+                <form action="/user/reg" method="post">
+                    <span>用户昵名</span>
+                    <input type="text" class="input_uname" name="uname" placeholder="请输入昵名"/>
+                    <span></span>
+                    <br>
+                    <span>输入密码</span>
+                    <input type="password" class="input_upwd" name="upwd" placeholder="请输入登录密码"/>
+                    <span></span>
+                    <br>
+                    <span>手机号码</span>
+                    <input type="text" class="input_phone" name="phone" placeholder="请输入正确的手机号"/>
+                    <span></span>
+                    <br>
+                    <span>手机验证</span>
+                    <input class="phone_verity" type="text" placeholder="请输入验证码">
+                    <input class="phone_btn" type="button" value="获取验证信息">
+                    <br>
+                    <div>
+                        <input type="checkbox" class="Must_checkbox">
+                        <span>同意<a href="">服务协议</a></span>
+                    </div>
+                    <br>
+                    <button class="regist_btn">注册></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer_main">
+    </div>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/ajax.js"></script>
+    <script src="js/regist.js"></script>
+</body>
+</html>

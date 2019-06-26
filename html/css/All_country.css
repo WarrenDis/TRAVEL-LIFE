@@ -1,0 +1,245 @@
+/* 内容区域确定 */
+.Asia{
+    max-width:1480px;
+    min-width:1300px;
+    margin: 0 auto;
+}
+/* 背景图及文字显示 */
+.Asia_indcate{
+    width: 100%;
+    height:500px;
+    background-image: url(../img/asia_travel.jpg);
+    background-size:cover;
+    display: flex;
+    align-items: center;
+}
+/* 透明div设置，设定内容位置 */
+.Asia_travel{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* 设置内容显示效果 */
+.Asia_travel>span{
+    display: block;
+    font: italic bold 50px "sans-serif";
+    color: chocolate;
+}
+/* 导航区域 */
+.Asia_nav{
+    width: 100%;
+}
+/* 导航标题设置 */
+.Asia_nav>span{
+    display:block;
+    text-align: center;
+    font: 2rem "sans-serif";
+    margin-top: 2rem;
+    border-bottom:2px solid #676768
+}
+/* 导航内容区域 */
+.nav_country{
+    width: 100%;
+    padding: 20px;
+}
+.country_name{
+    width: 100%;
+    background-color: #676768;
+}
+.country_name::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+.country_name>li{
+    float: left;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 14.2857%;
+    text-align: center;
+    font: 15px "sans-serif";
+    border-radius: 15px;
+}
+.country_name>li:hover{
+    background-color: rgb(233, 157, 17);
+    transition:background-color 1s;
+}
+/* 旅行地点区域 */
+.travel_site{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+}
+
+.country_travel{
+    width: 75%;
+    padding-right:10px;
+}
+/* 左右栏样式设置 */
+.country_travel>span,
+.travel_news>span{
+    display:block;
+    font: 1.5rem "sans-serif";
+    background-color: chocolate;
+    padding:10px; 
+    border-radius: 5px;
+}
+/* 左边内容区域样式 */
+.travel_list{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* 显示国家的全部省市 */
+.every_lpolis{
+    width: 100%;
+    padding: 5px;
+}
+/* ul */
+.every_lpolis>.lpolis{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* li */
+.every_lpolis>.lpolis>.lpolisname{
+    width: 25%;
+    padding: 5px;
+}
+/* li>div */
+.every_lpolis>.lpolis>.lpolisname>div{
+    width: 100%;
+    height: 210px;
+    padding: 5px;
+}
+/* li>img */
+.every_lpolis>.lpolis>.lpolisname>div>img{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+}
+/* li>a */
+.every_lpolis>.lpolis>.lpolisname>a{
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    font-size:30px; 
+    text-align: center;
+    line-height: 50px;  
+    border-radius: 10px;
+    background-color: chocolate;
+    background-size:cover;
+}
+/* 每个框宽度大小 */
+.every_travel{
+    width: 23%;
+    margin-top: 20px;
+}
+.every_travel:hover{
+    box-shadow:0 0 20px #1313b9; 
+}
+.every_travel>.list_content{
+    background-color: rgb(88, 85, 88);
+    padding: 5px;
+}
+/* 图片框样式设置 */
+.every_travel>.list_content>.list_img{
+    width: 100%;
+    height: 150px;
+    
+}
+.every_travel>.list_content>.list_img>img{
+    width: 100%;
+    height: 150px;
+    border-radius: 50%;
+}
+.every_travel>.list_content>.list_img>img:hover{
+    border-radius: 0;
+    transition: border-radius 1s;
+}
+/* 每个标题样式 */
+.every_travel>.list_content>.list_title{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+/* 每个内容说明样式 */
+.every_travel>.list_content>.list_content{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font:12px "sans-serif";
+    padding: 5px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+/* 查看详情按钮样式 */
+.every_travel>.list_content>.list_detalic{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 10px;
+}
+.every_travel>.list_content>.list_detalic>a{
+    display: block;
+    height: 40px;
+    width: 40%;
+    font: 15px "sans-serif" #cfb520;
+    color: rgb(252, 249, 247);
+    text-align: center;
+    line-height: 40px;
+    border-radius: 10px;
+    background-image:linear-gradient(to right,#2ed4f1 0%,#0797b1 100%) 
+}
+.every_travel>.list_content>.list_detalic>a:hover{
+    width: 50%;
+    transition: width 0.5s;
+}
+/* 页数的显示栏 */
+.travel_page{
+    width: 100%;
+}
+.page_num{
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.page_num>li{
+    background-color: peru;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.page_num>li.active{
+    background-color: #e6bd07
+}
+/* 右边内容样式设置 */
+.travel_news{
+    width: 25%;
+    padding-left: 10px;
+}
+.travel_news>.news_list{
+    width: 100%;
+    padding: 5px;
+    font: 15px "sans-serif";
+}
+.travel_news>.news_list>.news_content>a>p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #ccccd1;
+}
